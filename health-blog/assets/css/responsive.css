@@ -1,0 +1,25 @@
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+    .btn-read {
+        width: 100%;
+        padding: 10px;
+    }
+}
